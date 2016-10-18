@@ -1,0 +1,5 @@
+# Generated files
+node_modules
+**/*.js
+**/*.js.map
+.idea
