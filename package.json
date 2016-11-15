@@ -1,6 +1,6 @@
 {
   "name": "@conclurer/date-to-format-pipe",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pipe that transforms a date sting into a formatted date using moment.js",
   "main": "index.js",
   "scripts": {
