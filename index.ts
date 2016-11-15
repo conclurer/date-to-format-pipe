@@ -1,5 +1,5 @@
 import {Pipe, PipeTransform} from '@angular/core';
-import moment = require('moment');
+import * as moment from 'moment';
 import Moment = moment.Moment;
 
 @Pipe({name: 'dateToFormat'})

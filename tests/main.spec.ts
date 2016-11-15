@@ -2,7 +2,7 @@ import 'reflect-metadata';
 import test = require('tape');
 import Test = test.Test;
 import {DateToFormat} from '../';
-import moment = require('moment');
+import * as moment from 'moment';
 
 test('default behavior of pipe', (t: Test) => {
     let i: DateToFormat = new DateToFormat();
