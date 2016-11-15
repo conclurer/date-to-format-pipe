@@ -4,6 +4,7 @@
   "description": "Pipe that transforms a date sting into a formatted date using moment.js",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm test",
     "test": "ngc && tape tests/**/*.js"
   },
   "repository": {
